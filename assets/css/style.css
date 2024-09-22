@@ -27,13 +27,24 @@ body {
 }
 
 .btn {
-  padding: 9px 10px;
+  padding: 25px 40px;
   background-color: #F2726F;
   border-radius: 8px;
   color: white;
   font-size: 12px;
   width: -moz-fit-content;
   width: fit-content;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.15px;
+}
+
+.logos-text {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 .main {
@@ -51,7 +62,53 @@ body {
   gap: 48px;
 }
 .main__title {
-  font-size: 56px;
-  font-weight: 900;
+  font-size: 64px;
+  font-weight: bolder;
   color: #fff;
+  max-width: 800px;
+}
+
+.about__wrap {
+  background-color: #5D62B5;
+  height: 700px;
+  width: 1020px;
+  position: relative;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding: 100px 87px;
+}
+.about__dots {
+  position: absolute;
+  right: -70px;
+  top: -110px;
+}
+.about__dog {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -120px;
+  z-index: 1;
+}
+.about__blob {
+  position: absolute;
+  left: -10px;
+  bottom: -140px;
+}
+.about__logos {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.about__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  max-width: 580px;
+  margin-bottom: 36px;
+}
+.about__text {
+  color: #fff;
+  letter-spacing: 0.15px;
+  font-size: 16px;
 }

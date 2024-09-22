@@ -1,5 +1,5 @@
 $color_orange: #F2726F;
-
+$color_blue: #5D62B5;
 
 
 @font-face {
@@ -33,12 +33,26 @@ body {
 }
 
 .btn{
-    padding: 9px 10px;
+    padding: 25px 40px;
     background-color: $color_orange;
     border-radius: 8px;
     color: white;
     font-size: 12px;
     width: fit-content;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.15px;
+}
+
+.logos{
+
+    &-text{
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
 }
 
 .main{
@@ -57,8 +71,63 @@ body {
     }
 
     &__title{
-        font-size: 56px;
-        font-weight: 900;
+        font-size: 64px;
+        font-weight: bolder;
         color: #fff;
+        max-width: 800px;
+    }
+}
+
+.about{
+
+    &__wrap{
+        background-color: $color_blue;
+        height: 700px;
+        width: 1020px;
+        position: relative;
+        border-radius: 40px;
+        margin: 0 auto;
+        padding: 100px 87px;
+    }
+
+    &__dots{
+        position: absolute;
+        right: -70px;
+        top: -110px;
+    }
+
+    &__dog{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+        z-index: 1;
+    }
+
+    &__blob{
+        position: absolute;
+        left:-10px;
+        bottom: -140px;
+    }
+
+    &__logos{
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        margin-bottom: 33px;
+    }
+
+    &__title{
+        font-size: 36px;
+        font-weight: bold;
+        color: #fff;
+        max-width: 580px;
+        margin-bottom: 36px;
+    }
+
+    &__text{
+        color: #fff;
+        letter-spacing: 0.15px;
+        font-size: 16px;
     }
 }

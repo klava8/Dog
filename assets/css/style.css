@@ -76,6 +76,7 @@ body {
   border-radius: 40px;
   margin: 0 auto;
   padding: 100px 87px;
+  margin-bottom: 250px;
 }
 .about__dots {
   position: absolute;
@@ -111,4 +112,42 @@ body {
   color: #fff;
   letter-spacing: 0.15px;
   font-size: 16px;
+}
+
+.promise__wrap {
+  margin-bottom: 122px;
+}
+.promise__logos {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.promise__logos-text {
+  color: #5D62B5;
+}
+.promise__title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 68px;
+}
+.promise__box {
+  display: flex;
+  justify-content: space-between;
+}
+.promise__card {
+  max-width: 324px;
+  display: flex;
+  align-items: start;
+  gap: 24px;
+}
+.promise__card-title {
+  color: #F2726F;
+  font-size: 19px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.promise__card-text {
+  color: #4B4B4B;
+  letter-spacing: 0.15px;
 }
